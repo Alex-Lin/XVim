@@ -17,6 +17,9 @@
 #import <objc/runtime.h>
 #import "IDEPlaygroundEditor+XVim.h"
 
+@implementation IDEPlaygroundEditor
+@end
+
 @implementation IDEPlaygroundEditor(XVim)
 
 + (void)xvim_initialize{
